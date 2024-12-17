@@ -3,7 +3,8 @@ Fraud Email Detection System
 
 This project implements a machine learning-based system to detect fraudulent emails. Using text preprocessing, feature extraction, and classification techniques, the system achieves high accuracy in distinguishing between legitimate and fraudulent emails.
 
-Features
+---
+*Features*
 
 Preprocesses email text data to remove noise.
 
@@ -13,8 +14,8 @@ Employs a Random Forest Classifier for robust classification.
 
 Evaluates model performance using metrics like accuracy, classification report, and confusion matrix.
 
-
-Dataset
+---
+*Dataset*
 
 The model requires a dataset in CSV format with the following columns:
 
@@ -22,12 +23,9 @@ Text: Contains the email content.
 
 Class: Labels indicating whether the email is fraudulent (e.g., 1) or legitimate (e.g., 0).
 
+---
 
-Example Dataset Structure
-
-Ensure that the dataset is placed in the appropriate file path (path_to/fraud_email_.csv) before running the code.
-
-Requirements
+*Requirements*
 
 The following Python libraries are required to run the project:
 
@@ -66,8 +64,8 @@ Trains a Random Forest Classifier on the preprocessed data.
 
 Evaluates the classifier's performance using accuracy, classification report, and confusion matrix.
 
-
-Results
+---
+*Results*
 
 The model outputs the following:
 
@@ -99,14 +97,14 @@ Confusion Matrix:
  [[1340    9]
  [  17 1020]]
 
-
-Contribution
+---
+*Contribution*
 
 Feel free to fork this repository and improve the code. Pull requests are welcome!
 
 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.
 
 
 ---
