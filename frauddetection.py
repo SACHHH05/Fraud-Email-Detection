@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-file_path = 'path_to/fraud_email_.csv'
+file_path = '/content/sp.zip'
 data = pd.read_csv(file_path)
 
 data = data.dropna(subset=['Text'])
